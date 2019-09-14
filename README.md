@@ -1,6 +1,6 @@
 # QuizCPP
 
-This program allows user to play a simple command line quiz. It allows admin to modify and update questions and credentials. This program demonstrates good use of classes and file handling in c++. I made it as a class 12th school project for year 2015-16.
+This program allows user to play a simple command line quiz. It allows admin to modify and update questions and credentials. This program demonstrates good use of classes and file handling in c++. We made it for B.Tech 4th semester project for Object Oriented Programming(C++).
 
 ## Getting Started
 
@@ -9,7 +9,8 @@ Clone a copy of this repository locally
 ### Note:
 
 * Entire code has now been updated to C++11 standard.
-* The code is modular and divided into many classes but is still present in a single file so no need to include multiple files. I will divide code in multiple header files in a later commit.
+* This code has now been refactored into multiple header file each for a separate purpose.
+* This update also adds a brand-new feature for lifelines to help player during the quiz. 
 
 ### Prerequisites
 
@@ -23,7 +24,8 @@ Clone a copy of this repository locally
 
 ## Data
 
-* The data folder consists of two files, ```Questions.dat``` and ```credentials.dat```. Do *NOT* modify these files using a text editor.
+* The data folder consists of two files, ```Questions.dat``` and ```credentials.dat```. Do **NOT** modify these files using a text editor.
+* The data folder must be present in folder in which the project is being executed.
 * To questions in file ```Questions.dat``` are some dummy GK questions.
 * To enter admin mode, use name and password as ```admin```
 
@@ -33,11 +35,12 @@ Clone a copy of this repository locally
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. Latest Release version is v1.0.0.
+We use [SemVer](http://semver.org/) for versioning. Latest Release version is v2.0.0.
 
 ## Authors
 
-* **Varun Dwivedi** - *Complete Project* - [eagleranger96](https://github.com/eagleranger96/)
+* **Varun Dwivedi** - *Initial Work* - [eagleranger96](https://github.com/eagleranger96/)
+* **Ravikant Mishra** - *Refinement work* - [R-kant](https://github.com/r-kant)
 
 ## License
 

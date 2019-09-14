@@ -30,9 +30,14 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
-			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="clrscr.h" />
+		<Unit filename="lifelines.h" />
+		<Unit filename="login.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="menu.h" />
+		<Unit filename="question.h" />
+		<Unit filename="quiz.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
